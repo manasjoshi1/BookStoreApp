@@ -106,19 +106,28 @@ And login with the credentials username: admin@gmail.com and paassword : 123456
 ## Usage
 
 ### Login
+[![Login ScreenShot][images/Login.png]]()
 
 ### Register
+[![Register ScreenShot][images/Register.png]]()
 
 ### Admin
+[![adminPanel ScreenShot][images/adminPanel.png]]()
 
 #### Manage Categories
+[![adminCategories ScreenShot][images/adminCategories.png]]()
 
 #### Manage Books
+[![adminBooks ScreenShot][images/adminBooks.png]]()
 
 ### Customer
 
 #### Shop
+[![Shop ScreenShot]](images/Shop.png)
+
 #### View Book
+[![Login ScreenShot][images/viewBook.png]]()
+
 
 
 <!-- ROADMAP -->
@@ -139,7 +148,7 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-##Future Scope
+## Future Scope
 * Showing a success page after the successful purchase of book.
 * Adding a cart feature so that multiple books can be purchased at once.
 * Payment Gateway
