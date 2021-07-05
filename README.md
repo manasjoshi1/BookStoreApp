@@ -101,7 +101,11 @@ And login with the credentials username: admin@gmail.com and paassword : 123456
 
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
+### Database 
+![Product Name Screen Shot][DataBase-screenshot]
+
 
 ### Login
 ![Product Name Screen Shot][Login-screenshot]
@@ -176,4 +180,4 @@ Project Link: [https://github.com/manasjoshi1/BookStoreApp](https://github.com/m
 [Register-screenshot]: images/Register.png
 [viewBook-screenshot]: images/viewBook.png
 [Shop-screenshot]: images/Shop.png
-
+[DataBase-screenshot]: images/DataBase.png
