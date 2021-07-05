@@ -107,18 +107,18 @@ And login with the credentials username: admin@gmail.com and paassword : 123456
 
 ### Login
 
-###Register
+### Register
 
-###Admin
+### Admin
 
-####Manage Categories
+#### Manage Categories
 
-####Manage Books
+#### Manage Books
 
-###Customer
+### Customer
 
-####Shop
-####View Book
+#### Shop
+#### View Book
 
 
 <!-- ROADMAP -->
