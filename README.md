@@ -1,6 +1,4 @@
 
-
-
 <h3 align="center">BookStore App </h3>
 
   <p align="center">
@@ -106,27 +104,26 @@ And login with the credentials username: admin@gmail.com and paassword : 123456
 ## Usage
 
 ### Login
-[![Login ScreenShot][images/Login.png]]()
-
+![Product Name Screen Shot][Login-screenshot]
 ### Register
-[![Register ScreenShot][images/Register.png]]()
+![Product Name Screen Shot][Register-screenshot]
 
 ### Admin
-[![adminPanel ScreenShot][images/adminPanel.png]]()
+![Product Name Screen Shot][adminPanel-screenshot]
 
 #### Manage Categories
-[![adminCategories ScreenShot][images/adminCategories.png]]()
+![Product Name Screen Shot][adminCategory-screenshot]
 
 #### Manage Books
-[![adminBooks ScreenShot][images/adminBooks.png]]()
+![Product Name Screen Shot][adminBooks-screenshot]
 
 ### Customer
 
 #### Shop
-[![Shop ScreenShot]](images/Shop.png)
+![Product Name Screen Shot][Shop-screenshot]
 
 #### View Book
-[![Login ScreenShot][images/viewBook.png]]()
+![Product Name Screen Shot][viewBook-screenshot]
 
 
 
@@ -172,4 +169,11 @@ Project Link: [https://github.com/manasjoshi1/BookStoreApp](https://github.com/m
 
 
 
+[adminBooks-screenshot]: images/adminBooks.png
+[adminPanel-screenshot]: images/adminPanel.png
+[adminCategory-screenshot]: images/adminCategory.png
+[Login-screenshot]: images/Login.png
+[Register-screenshot]: images/Register.png
+[viewBook-screenshot]: images/viewBook.png
+[Shop-screenshot]: images/Shop.png
 
