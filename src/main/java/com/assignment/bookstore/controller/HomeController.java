@@ -3,6 +3,7 @@ package com.assignment.bookstore.controller;
 import com.assignment.bookstore.BookStoreApplication;
 import com.assignment.bookstore.service.BookService;
 import com.assignment.bookstore.service.CategoryService;
+import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
+@Log4j2
 public class HomeController {
     private static final Logger logger = LogManager.getLogger(BookStoreApplication.class);
 
