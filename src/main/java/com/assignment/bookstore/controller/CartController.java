@@ -5,6 +5,7 @@ import com.assignment.bookstore.model.User;
 import com.assignment.bookstore.repository.UserReposirotry;
 import com.assignment.bookstore.service.BookService;
 import com.assignment.bookstore.service.OrderService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.Optional;
 
 @Controller
+@Api
 public class CartController {
     @Autowired
     BookService bookService;

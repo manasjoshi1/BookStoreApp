@@ -6,12 +6,13 @@ import com.assignment.bookstore.repository.RoleRepository;
 import com.assignment.bookstore.repository.UserReposirotry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class LoginService {
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
