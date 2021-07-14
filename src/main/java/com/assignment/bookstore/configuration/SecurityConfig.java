@@ -19,11 +19,26 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     CustomUserDetailService customUserDetailService;
+    private static final String[] AUTH_WHITELIST = {
+            // -- Swagger UI v2
+            "/v2/api-docs",
+            "/swagger-resources",
+            "/swagger-resources/**",
+            "/configuration/ui",
+            "/configuration/security",
+            "/swagger-ui.html",
+            "/webjars/**",
+            // -- Swagger UI v3 (OpenAPI)
+            "/v3/api-docs/**",
+            "/swagger-ui/**"
+            // other public endpoints of your API may be appended to this array
+    };
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/","/shop/**","/register","/swagger-ui.html").permitAll()
+                .antMatchers("/","/shop/**","/register","/swagger-ui.html/**","/v3/**").permitAll()
+                .antMatchers(AUTH_WHITELIST).permitAll()  // whitelist Swagger UI resources
                 .antMatchers("/admin/**").hasRole("ADMIN")
                 .anyRequest()
                 .authenticated()
@@ -64,4 +79,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
     web.ignoring().antMatchers("/resources/**","/static/**");
     }
+
 }

@@ -2,7 +2,7 @@ package com.assignment.bookstore.controller;
 
 import com.assignment.bookstore.model.User;
 import com.assignment.bookstore.service.LoginService;
-import io.swagger.annotations.Api;
+//import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Controller;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 @Controller
-@Api
+//@Api
 public class LoginController {
     @Autowired
     LoginService loginService;
